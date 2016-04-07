@@ -1,8 +1,10 @@
 ---
 layout: post
 title: first post
+published: true
 ---
 
-yey!
 
+yey!
+test123
 stuffs
