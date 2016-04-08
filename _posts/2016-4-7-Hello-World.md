@@ -1,7 +1,7 @@
 ---
 layout: post
 title: first post
-categories: cat1,cat2
+categories: cat2
 published: true
 ---
 
