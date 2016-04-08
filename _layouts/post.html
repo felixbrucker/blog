@@ -5,14 +5,8 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="right">
-    {% unless page.categories == '' %}
-      Categories:
-      {% for category in page.categories %}
-      <br /><a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }}</a>
-      {% endfor %}
-    {% endunless %}
-  </div>
+  {% include post-categories.html %}
+
   <div class="entry">
     {{ content }}
   </div>
