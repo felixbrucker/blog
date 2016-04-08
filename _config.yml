@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: my small datacente
+name: my small datacenter
 
 # Short bio or description (displayed in the header)
 description: storage, networking and more
@@ -48,6 +48,8 @@ url:
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/blog"
+
+paginate: 1
 
 #
 # !! You don't need to change any of the configuration flags below !!
