@@ -1,7 +1,10 @@
 ---
 layout: post
 title: first post
-categories: cat2
+categories: 
+- cat2
+- cat1
+author: Felix Brucker
 published: true
 ---
 
