@@ -1,10 +1,10 @@
 <div class="right">
-    {% if page.categories And page.categories != "" And page.categories != nil %}
+    {% if page.categories %}
         Categories:
-        <div class="right">
+        <span class="right-text">
             {% for category in page.categories %}
                 <br /><a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }}</a>
             {% endfor %}
-        </div>
+        </span>
     {% endif %}
 </div>
