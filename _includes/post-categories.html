@@ -1,8 +1,8 @@
 <div class="right">
-    {% unless page.categories != "" Or page.categories != nil %}
+    {% if page.categories != "" And page.categories != nil %}
         Categories:
         {% for category in page.categories %}
         <br /><a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }}</a>
         {% endfor %}
-    {% endunless %}
+    {% endif %}
 </div>
