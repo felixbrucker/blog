@@ -5,10 +5,11 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  {% for category in page.categories %}
-    <a href="{{ site.baseurl }}/category/{{ category }}/" style="text-align: right;">{{ category }}</a><br />
-  {% endfor %}
-
+  <div class="right">
+    {% for category in page.categories %}
+      <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }}</a><br />
+    {% endfor %}
+  </div>
   <div class="entry">
     {{ content }}
   </div>
