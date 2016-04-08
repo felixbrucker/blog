@@ -20,15 +20,15 @@
       <div class="container">
         <header class="masthead clearfix">
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav>
             {% for category in site.categories %}
-            <a href="{{ site.baseurl }}/category/{{ category[0] }}/">{{ category[0] }}</a>
+            <a href="{{ site.baseurl }}/category/{{ category[0] }}">{{ category[0] }}</a>
             {% endfor %}
-            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}">Home</a>
             <a href="{{ site.baseurl }}/about">About</a>
 
           </nav>

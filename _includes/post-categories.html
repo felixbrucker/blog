@@ -2,9 +2,9 @@
     categories:
     {% for category in page.categories %}
         {% if forloop.last == false %}
-            <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }}</a>,
+            <a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a>,
         {% else %}
-            <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }}</a>
+            <a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a>
         {% endif %}
     {% endfor %}
 </div>
