@@ -12,14 +12,12 @@ layout: page
 {% for post in site.categories.[page.category] %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
+        <h3 class="post-title">
             {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
         </h3>
-        {% endif %}
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
     </a>
     <p class="post-meta date">
         Posted on {{ post.date | date: "%B %-d, %Y" }}
