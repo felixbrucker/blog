@@ -10,7 +10,9 @@ layout: default
   </div>
 
   <div class="date">
-    {% include post-categories.html %}
+    <div class="right">
+      {% include page-categories.html %}
+    </div>
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
