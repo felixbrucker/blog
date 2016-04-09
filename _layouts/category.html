@@ -15,10 +15,12 @@ layout: page
         <h3 class="post-title">
             {{ post.title }}
         </h3>
-        <div class="entry">
-            {{ post.excerpt }}
-        </div>
     </a>
+
+    <div class="entry">
+        {{ post.excerpt }}
+    </div>
+
     <p class="post-meta date">
         Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
