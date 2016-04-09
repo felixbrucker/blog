@@ -22,6 +22,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  margin-bottom: 4em;
 }
 
 .container {
@@ -276,6 +277,9 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  bottom: 0;
+  position: absolute;
+  height: 4em;
 }
 
 footer {
