@@ -22,7 +22,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 }
 
 .container {
@@ -273,13 +273,12 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
   bottom: 0;
   position: absolute;
-  height: 3em;
+  height: 5em;
   width: 100%;
 }
 
